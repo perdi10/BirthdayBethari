@@ -69,7 +69,147 @@ body {
   right: 5px;
 }
 
-.five p {
+.five .text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.six .text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.seven .text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.eight .text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.nine .text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.ten p {
   font-size: 2rem;
   left: 0;
   position: absolute;
@@ -82,7 +222,7 @@ body {
   padding: 3px 5px;
 }
 
-.five .idea-5 {
+.ten .idea-5 {
   font-size: 4rem;
 }
 
@@ -95,20 +235,20 @@ body {
 }
 
 
-.six {
+.eleven {
   position: relative;
   top: 10vh;
   z-index: 1;
 }
 
-.six img {
+.eleven img {
   display: inline-block;
   height: 350px;
   max-width: 100%;
   /* height: auto; */
 }
 
-.six .hat {
+.eleven .hat {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
@@ -133,14 +273,14 @@ body {
   left: 30%;
 }
 
-.seven, .eight {
+.twelve, .thirteen {
   height: 100vh;
   position: fixed;
   top: 0;
   width: 100vw;
 }
 
-.eight svg {
+.thirteen svg {
   left: 0;
   position: absolute;
   top: 0;
@@ -149,55 +289,55 @@ body {
   z-index: -1;
 }
 
-.eight svg:nth-child(1) {
+.thirteen svg:nth-child(1) {
   fill: #bd6ecf;
   left: 5vw;
   top: 7vh;
 }
 
-.eight svg:nth-child(2) {
+.thirteen svg:nth-child(2) {
   fill: #7dd175;
   left: 35vw;
   top: 23vh;
 }
 
-.eight svg:nth-child(3) {
+.thirteen svg:nth-child(3) {
   fill: #349d8b;
   left: 23vw;
   top: 33vh;
 }
 
-.eight svg:nth-child(4) {
+.thirteen svg:nth-child(4) {
   fill: #347a9d;
   left: 57vw;
   top: 43vh;
 }
 
-.eight svg:nth-child(5) {
+.thirteen svg:nth-child(5) {
   fill: #c66053;
   left: 7vw;
   top: 68vh;
 }
 
-.eight svg:nth-child(6) {
+.thirteen svg:nth-child(6) {
   fill: #bfaa40;
   left: 77vw;
   top: 42vh;
 }
 
-.eight svg:nth-child(7) {
+.thirteen svg:nth-child(7) {
   fill: #e3bae8;
   left: 83vw;
   top: 68vh;
 }
 
-.eight svg:nth-child(8) {
+.thirteen svg:nth-child(8) {
   fill: #8762cb;
   left: 37vw;
   top: 86vh;
 }
 
-.eight svg:nth-child(9) {
+.thirteen svg:nth-child(9) {
   fill: #9a90da;
   left: 87vw;
   top: 94vh;
@@ -215,7 +355,7 @@ body {
   margin: 10px 0 0;
 }
 
-.nine p {
+.fourteen p {
   font-size: 2rem;
   font-weight: lighter;
 }
@@ -227,25 +367,25 @@ body {
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
-  .six .hat {
+  .eleven .hat {
     left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
-  .six .hat {
+  .eleven .hat {
     left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
-  .six .hat {
+  .eleven .hat {
     left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
+  .eleven .hat {
     left: 32%;
   }
 }
@@ -263,6 +403,51 @@ body {
     bottom: -38px;
     right: 5px;
   }
+  
+  .five .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .six .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .seven .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .eight .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
+  
+  .nine .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
 
   .idea-5 span {
     display: block;
@@ -272,7 +457,7 @@ body {
     font-size: 10rem;
   }
 
-  .six .hat {
+  .eleven .hat {
     /* top: -20px; */
     width: 50px;
   }
@@ -285,7 +470,7 @@ body {
     font-size: 1.4rem;
   }
 
-  .nine p {
+  .fourteen p {
     font-size: 1.5rem;
     font-weight: lighter;
   }
