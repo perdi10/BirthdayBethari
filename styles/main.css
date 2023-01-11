@@ -209,7 +209,35 @@ body {
   right: 5px;
 }
 
-.ten p {
+.ten .text-box {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+.eleven p {
   font-size: 2rem;
   left: 0;
   position: absolute;
@@ -222,7 +250,7 @@ body {
   padding: 3px 5px;
 }
 
-.ten .idea-5 {
+.eleven .idea-5 {
   font-size: 4rem;
 }
 
@@ -235,20 +263,20 @@ body {
 }
 
 
-.eleven {
+.twelve {
   position: relative;
   top: 10vh;
   z-index: 1;
 }
 
-.eleven img {
+.twelve img {
   display: inline-block;
   height: 350px;
   max-width: 100%;
   /* height: auto; */
 }
 
-.eleven .hat {
+.twelve .hat {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
@@ -273,14 +301,14 @@ body {
   left: 30%;
 }
 
-.twelve, .thirteen {
+.thirteen, .fourteen {
   height: 100vh;
   position: fixed;
   top: 0;
   width: 100vw;
 }
 
-.thirteen svg {
+.fourteen svg {
   left: 0;
   position: absolute;
   top: 0;
@@ -289,55 +317,55 @@ body {
   z-index: -1;
 }
 
-.thirteen svg:nth-child(1) {
+.fourteen svg:nth-child(1) {
   fill: #bd6ecf;
   left: 5vw;
   top: 7vh;
 }
 
-.thirteen svg:nth-child(2) {
+.fourteen svg:nth-child(2) {
   fill: #7dd175;
   left: 35vw;
   top: 23vh;
 }
 
-.thirteen svg:nth-child(3) {
+.fourteen svg:nth-child(3) {
   fill: #349d8b;
   left: 23vw;
   top: 33vh;
 }
 
-.thirteen svg:nth-child(4) {
+.fourteen svg:nth-child(4) {
   fill: #347a9d;
   left: 57vw;
   top: 43vh;
 }
 
-.thirteen svg:nth-child(5) {
+.fourteen svg:nth-child(5) {
   fill: #c66053;
   left: 7vw;
   top: 68vh;
 }
 
-.thirteen svg:nth-child(6) {
+.fourteen svg:nth-child(6) {
   fill: #bfaa40;
   left: 77vw;
   top: 42vh;
 }
 
-.thirteen svg:nth-child(7) {
+.fourteen svg:nth-child(7) {
   fill: #e3bae8;
   left: 83vw;
   top: 68vh;
 }
 
-.thirteen svg:nth-child(8) {
+.fourteen svg:nth-child(8) {
   fill: #8762cb;
   left: 37vw;
   top: 86vh;
 }
 
-.thirteen svg:nth-child(9) {
+.fourteen svg:nth-child(9) {
   fill: #9a90da;
   left: 87vw;
   top: 94vh;
@@ -355,7 +383,7 @@ body {
   margin: 10px 0 0;
 }
 
-.fourteen p {
+.fifteen p {
   font-size: 2rem;
   font-weight: lighter;
 }
@@ -367,25 +395,25 @@ body {
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
-  .eleven .hat {
+  .twelve .hat {
     left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
-  .eleven .hat {
+  .twelve .hat {
     left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
-  .eleven .hat {
+  .twelve .hat {
     left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
-  .eleven .hat {
+  .twelve .hat {
     left: 32%;
   }
 }
@@ -448,6 +476,15 @@ body {
     bottom: -38px;
     right: 5px;
   }
+  
+  .ten .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    bottom: -38px;
+    right: 5px;
+  }
 
   .idea-5 span {
     display: block;
@@ -457,7 +494,7 @@ body {
     font-size: 10rem;
   }
 
-  .eleven .hat {
+  .twelve .hat {
     /* top: -20px; */
     width: 50px;
   }
@@ -470,7 +507,7 @@ body {
     font-size: 1.4rem;
   }
 
-  .fourteen p {
+  .fifteen p {
     font-size: 1.5rem;
     font-weight: lighter;
   }
