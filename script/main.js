@@ -254,6 +254,34 @@ const animationTimeline = () => {
         y: -150
       },
     "+=1")
+  
+  .from(".ten", 0.7, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .from(".fake-btn", 0.3, {
+      scale: 0.2,
+      opacity: 0,
+    })
+    .staggerTo(
+      ".hbd-chatbox span",
+      1.5, {
+        visibility: "visible",
+      },
+      0.05
+    )
+    .to(".fake-btn", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)",
+    },
+    "+=4")
+    .to(
+      ".ten",
+      0.5, {
+        scale: 0.2,
+        opacity: 0,
+        y: -150
+      },
+    "+=1")
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-2", 0.7, ideaTextTrans)
@@ -381,7 +409,7 @@ const animationTimeline = () => {
       "party"
     )
     .staggerTo(
-      ".thirteen svg",
+      ".fourteen svg",
       1.5, {
         visibility: "visible",
         opacity: 0,
@@ -391,12 +419,12 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .to(".eleven", 0.5, {
+    .to(".twelve", 0.5, {
       opacity: 0,
       y: 30,
       zIndex: "-1",
     })
-    .staggerFrom(".fourteen p", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".fifteen p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
       0.5, {
